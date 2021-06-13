@@ -1,6 +1,8 @@
 SparkFun Ambient Light Sensor VEML6030 (Qwiic) 
 ========================================
 
+I started from this driver and tried to make something that I could use from Qt on a Raspberry Pi.  It seems to work now, (which is why I pushed this version....) The QtChart thing doesn't work remotely right, but the underlying sensor objects seem to work Ok. It uses the i2c ioctl interface to work with the sensor on the Raspberry Pi (even if the chart doesn't seem to work right).  I'm hoping to spend a bit more time on this.
+
 ![SparkFun Ambient Light Sensor](https://cdn.sparkfun.com/assets/parts/1/3/9/9/6/15436-SparkFun_Ambient_Light_Sensor_-_VEML6030__Qwiic_-01.jpg)
 
 
