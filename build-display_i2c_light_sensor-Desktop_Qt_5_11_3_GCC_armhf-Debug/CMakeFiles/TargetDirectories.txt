@@ -1,0 +1,4 @@
+/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug/CMakeFiles/rebuild_cache.dir
+/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug/CMakeFiles/display_i2c_light_sensor.dir
+/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug/CMakeFiles/edit_cache.dir
+/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug/CMakeFiles/display_i2c_light_sensor_autogen.dir

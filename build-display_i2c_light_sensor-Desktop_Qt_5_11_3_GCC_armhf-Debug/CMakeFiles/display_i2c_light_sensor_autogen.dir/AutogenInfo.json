@@ -1,0 +1,99 @@
+{
+	"BUILD_DIR" : "/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug/display_i2c_light_sensor_autogen",
+	"CMAKE_BINARY_DIR" : "/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor",
+	"HEADERS" : 
+	[
+		[
+			"/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/SparkFun_VEML6030_Ambient_Light_Sensor.h",
+			"MU",
+			"EWIEGA46WW/moc_SparkFun_VEML6030_Ambient_Light_Sensor.cpp"
+		],
+		[
+			"/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/display_i2c_light_sensor.h",
+			"MU",
+			"EWIEGA46WW/moc_display_i2c_light_sensor.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug/display_i2c_light_sensor_autogen/include",
+	"MOC_COMPILATION_FILE" : "/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug/display_i2c_light_sensor_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CHARTS_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug",
+		"/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor",
+		"/usr/include/arm-linux-gnueabihf/qt5",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtWidgets",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtGui",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtCore",
+		"/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtCharts",
+		"/usr/include/c++/8",
+		"/usr/include/arm-linux-gnueabihf/c++/8",
+		"/usr/include/c++/8/backward",
+		"/usr/lib/gcc/arm-linux-gnueabihf/8/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed",
+		"/usr/include/arm-linux-gnueabihf",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug/display_i2c_light_sensor_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 1,
+	"PARSE_CACHE_FILE" : "/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug/CMakeFiles/display_i2c_light_sensor_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/build-display_i2c_light_sensor-Desktop_Qt_5_11_3_GCC_armhf-Debug/CMakeFiles/display_i2c_light_sensor_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/SparkFun_VEML6030_Ambient_Light_Sensor.cpp",
+			"MU"
+		],
+		[
+			"/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/display_i2c_light_sensor.cpp",
+			"MU"
+		],
+		[
+			"/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/display_i2c_light_sensor_main.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
