@@ -17,12 +17,44 @@ QtCharts/QChartView
 -
 QtCharts/QLineSeries
 -
+QtCharts/QValueAxis
+-
+QtCharts/QDateTimeAxis
+-
 linux/i2c-dev.h
 -
 i2c/smbus.h
 -
 SparkFun_VEML6030_Ambient_Light_Sensor.h
 ../SparkFun_VEML6030_Ambient_Light_Sensor.h
+
+/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/SparkFun_VEML6030_Ambient_Light_Sensor.cpp
+stdint.h
+-
+unistd.h
+-
+stdlib.h
+-
+math.h
+-
+QMessageBox
+-
+QDebug
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/ioctl.h
+-
+fcntl.h
+-
+linux/i2c-dev.h
+-
+linux/i2c.h
+-
+SparkFun_VEML6030_Ambient_Light_Sensor.h
+/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/SparkFun_VEML6030_Ambient_Light_Sensor.h
 
 /afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/SparkFun_VEML6030_Ambient_Light_Sensor.h
 
@@ -61,6 +93,8 @@ QtCharts/QDateTimeAxis
 -
 QtCharts/QValueAxis
 -
+limits
+-
 
 /afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/display_i2c_light_sensor.h
 QMainWindow
@@ -71,12 +105,22 @@ QtCharts/QChartView
 -
 QtCharts/QLineSeries
 -
+QtCharts/QValueAxis
+-
+QtCharts/QDateTimeAxis
+-
 linux/i2c-dev.h
 -
 i2c/smbus.h
 -
 SparkFun_VEML6030_Ambient_Light_Sensor.h
 /afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/SparkFun_VEML6030_Ambient_Light_Sensor.h
+
+/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/display_i2c_light_sensor_main.cpp
+QApplication
+-
+display_i2c_light_sensor.h
+/afs/aaker.org/home/kdaaker/src/i2c_stuff/display_i2c_light_sensor/display_i2c_light_sensor.h
 
 /usr/include/qt5/QtCharts/QAbstractAxis
 qabstractaxis.h
@@ -1364,6 +1408,10 @@ qmainwindow.h
 qmenubar.h
 /usr/include/qt5/QtWidgets/qmenubar.h
 
+/usr/include/qt5/QtWidgets/QMessageBox
+qmessagebox.h
+/usr/include/qt5/QtWidgets/qmessagebox.h
+
 /usr/include/qt5/QtWidgets/QStatusBar
 qstatusbar.h
 /usr/include/qt5/QtWidgets/qstatusbar.h
@@ -1419,6 +1467,12 @@ QtGui/qguiapplication.h
 -
 
 /usr/include/qt5/QtWidgets/qdesktopwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
+/usr/include/qt5/QtWidgets/qdialog.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -1524,6 +1578,12 @@ QtWidgets/qaction.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qmenu.h
+-
+
+/usr/include/qt5/QtWidgets/qmessagebox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
 -
 
 /usr/include/qt5/QtWidgets/qscrollarea.h

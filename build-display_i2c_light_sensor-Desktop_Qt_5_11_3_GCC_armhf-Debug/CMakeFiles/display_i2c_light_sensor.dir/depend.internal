@@ -253,10 +253,12 @@ CMakeFiles/display_i2c_light_sensor.dir/display_i2c_light_sensor.cpp.o
  /usr/include/arm-linux-gnueabihf/qt5/QtGui/qvector2d.h
  /usr/include/arm-linux-gnueabihf/qt5/QtGui/qwindowdefs.h
  /usr/include/arm-linux-gnueabihf/qt5/QtGui/qwindowdefs_win.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtWidgets/QAction
  /usr/include/arm-linux-gnueabihf/qt5/QtWidgets/QApplication
  /usr/include/arm-linux-gnueabihf/qt5/QtWidgets/QGraphicsView
  /usr/include/arm-linux-gnueabihf/qt5/QtWidgets/QGraphicsWidget
  /usr/include/arm-linux-gnueabihf/qt5/QtWidgets/QMainWindow
+ /usr/include/arm-linux-gnueabihf/qt5/QtWidgets/QMenu
  /usr/include/arm-linux-gnueabihf/qt5/QtWidgets/QMenuBar
  /usr/include/arm-linux-gnueabihf/qt5/QtWidgets/QStatusBar
  /usr/include/arm-linux-gnueabihf/qt5/QtWidgets/QWidget
@@ -292,17 +294,22 @@ CMakeFiles/display_i2c_light_sensor.dir/display_i2c_light_sensor_autogen/mocs_co
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QChart
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QChartGlobal
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QChartView
+ /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QDateTimeAxis
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QLegend
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QLineSeries
+ /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QValueAxis
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QXYSeries
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qabstractaxis.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qabstractseries.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qchart.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qchartglobal.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qchartview.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qdatetimeaxis.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qlegend.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qlineseries.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qvalueaxis.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qxyseries.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/QDateTime
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QMargins
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QTimer
@@ -326,6 +333,7 @@ CMakeFiles/display_i2c_light_sensor.dir/display_i2c_light_sensor_autogen/mocs_co
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcontiguouscache.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcoreevent.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdatastream.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdatetime.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdebug.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qfile.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qfiledevice.h
@@ -441,17 +449,22 @@ CMakeFiles/display_i2c_light_sensor.dir/display_i2c_light_sensor_main.cpp.o
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QChart
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QChartGlobal
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QChartView
+ /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QDateTimeAxis
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QLegend
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QLineSeries
+ /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QValueAxis
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/QXYSeries
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qabstractaxis.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qabstractseries.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qchart.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qchartglobal.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qchartview.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qdatetimeaxis.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qlegend.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qlineseries.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qvalueaxis.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCharts/qxyseries.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/QDateTime
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QMargins
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QTimer
@@ -476,6 +489,7 @@ CMakeFiles/display_i2c_light_sensor.dir/display_i2c_light_sensor_main.cpp.o
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcoreapplication.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcoreevent.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdatastream.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdatetime.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdebug.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qeventloop.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qfile.h

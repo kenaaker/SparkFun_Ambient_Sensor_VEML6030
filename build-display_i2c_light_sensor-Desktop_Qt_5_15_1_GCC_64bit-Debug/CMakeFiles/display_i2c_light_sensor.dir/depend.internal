@@ -292,16 +292,20 @@ CMakeFiles/display_i2c_light_sensor.dir/display_i2c_light_sensor_autogen/mocs_co
  /usr/include/qt5/QtCharts/QChart
  /usr/include/qt5/QtCharts/QChartGlobal
  /usr/include/qt5/QtCharts/QChartView
+ /usr/include/qt5/QtCharts/QDateTimeAxis
  /usr/include/qt5/QtCharts/QLegend
  /usr/include/qt5/QtCharts/QLineSeries
+ /usr/include/qt5/QtCharts/QValueAxis
  /usr/include/qt5/QtCharts/QXYSeries
  /usr/include/qt5/QtCharts/qabstractaxis.h
  /usr/include/qt5/QtCharts/qabstractseries.h
  /usr/include/qt5/QtCharts/qchart.h
  /usr/include/qt5/QtCharts/qchartglobal.h
  /usr/include/qt5/QtCharts/qchartview.h
+ /usr/include/qt5/QtCharts/qdatetimeaxis.h
  /usr/include/qt5/QtCharts/qlegend.h
  /usr/include/qt5/QtCharts/qlineseries.h
+ /usr/include/qt5/QtCharts/qvalueaxis.h
  /usr/include/qt5/QtCharts/qxyseries.h
  /usr/include/qt5/QtCore/QMargins
  /usr/include/qt5/QtCore/QObject
@@ -441,16 +445,20 @@ CMakeFiles/display_i2c_light_sensor.dir/display_i2c_light_sensor_main.cpp.o
  /usr/include/qt5/QtCharts/QChart
  /usr/include/qt5/QtCharts/QChartGlobal
  /usr/include/qt5/QtCharts/QChartView
+ /usr/include/qt5/QtCharts/QDateTimeAxis
  /usr/include/qt5/QtCharts/QLegend
  /usr/include/qt5/QtCharts/QLineSeries
+ /usr/include/qt5/QtCharts/QValueAxis
  /usr/include/qt5/QtCharts/QXYSeries
  /usr/include/qt5/QtCharts/qabstractaxis.h
  /usr/include/qt5/QtCharts/qabstractseries.h
  /usr/include/qt5/QtCharts/qchart.h
  /usr/include/qt5/QtCharts/qchartglobal.h
  /usr/include/qt5/QtCharts/qchartview.h
+ /usr/include/qt5/QtCharts/qdatetimeaxis.h
  /usr/include/qt5/QtCharts/qlegend.h
  /usr/include/qt5/QtCharts/qlineseries.h
+ /usr/include/qt5/QtCharts/qvalueaxis.h
  /usr/include/qt5/QtCharts/qxyseries.h
  /usr/include/qt5/QtCore/QMargins
  /usr/include/qt5/QtCore/QObject
