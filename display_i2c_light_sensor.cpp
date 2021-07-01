@@ -9,6 +9,7 @@
 #include <QtCharts/QLineSeries>
 #include <QtCharts/QDateTimeAxis>
 #include <QtCharts/QValueAxis>
+#include <limits>
 
 display_i2c_light_sensor::display_i2c_light_sensor(QWidget *parent)
     : QMainWindow(parent),
@@ -21,27 +22,29 @@ display_i2c_light_sensor::display_i2c_light_sensor(QWidget *parent)
     ui->setupUi(this);
     series = new QLineSeries();
     light_chart = new QChart();
+    light_chart_view = new QChartView(light_chart);
     light_chart->addSeries(series);
     light_chart->legend()->hide();
     light_chart->setTitle("Ambient Light detector values.");
-    light_chart_view = new QChartView(light_chart);
     light_chart_view->setRenderHint(QPainter::Antialiasing);
     connect(&update_light_timer, SIGNAL(timeout()), this, SLOT(update_ambient_light()));
-    update_light_timer.start(1000);
+    update_light_timer.start(1000*10);
     my_main_window->setCentralWidget(light_chart_view);
 
-    QDateTimeAxis *axisX = new QDateTimeAxis;
-    axisX->setTickCount(6);
+    axisX = new QDateTimeAxis;
     axisX->setFormat("h:m:s.z");
     axisX->setTitleText("Time");
     light_chart->addAxis(axisX, Qt::AlignBottom);
     series->attachAxis(axisX);
 
-    QValueAxis *axisY = new QValueAxis;
+    axisY = new QValueAxis;
     axisY->setLabelFormat("%i");
     axisY->setTitleText("Ambient Light Reading");
     light_chart->addAxis(axisY, Qt::AlignLeft);
     series->attachAxis(axisY);
+
+    min_reading = std::numeric_limits<qreal>::max();
+    max_reading = std::numeric_limits<qreal>::min();
 }
 
 void display_i2c_light_sensor::update_ambient_light(void) {
@@ -50,9 +53,22 @@ void display_i2c_light_sensor::update_ambient_light(void) {
 
     light_reading = light_sensor.read_light();
     output_light_reading = light_reading;
+    if (light_reading < min_reading) {
+        min_reading = light_reading;
+    }
+    if (light_reading > max_reading) {
+        max_reading = light_reading * 1.5;
+    }
+    if (series->count() == 0) {
+        axisX->setMin(QDateTime::currentDateTime());
+        axisY->setMin(0);
+    } else {
+        axisY->setMin(min_reading);
+        axisY->setMax(max_reading);
+    }
     series->append(QDateTime::currentDateTime().toMSecsSinceEpoch(), output_light_reading);
-    light_chart->axes(Qt::Horizontal).back()->setRange(0, series->count());
-    light_chart->update();
+    axisX->setMax(QDateTime::currentDateTime());
+    axisY->setMax(light_reading);
 }
 
 display_i2c_light_sensor::~display_i2c_light_sensor() {

@@ -435,7 +435,6 @@ uint32_t SparkFun_Ambient_Light::read_light() {
     uint16_t light_bits = read_register(AMBIENT_LIGHT_DATA_REG, AMBIENT_LIGHT_DATA_POS, AMBIENT_LIGHT_DATA_MASK);
     uint32_t lux_value = calculate_lux(light_bits);
 
-    qDebug() << __func__ << __LINE__ << " light_bits read from sensor is " << light_bits;
     if (lux_value > 1000) {
         uint32_t compensated_lux = lux_compensation(lux_value);
         return compensated_lux;
